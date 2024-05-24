@@ -1,0 +1,244 @@
+ sh -c javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')
+ java -classpath .:target/dependency/* Main
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+1
+Enter Name:
+heet
+Condition?
+1:Critical
+2:Serious
+3.Fair
+1
+heet added to Critical
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+1
+Enter Name:
+amogh
+Condition?
+1:Critical
+2:Serious
+3.Fair
+2
+amogh added to Serious
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+1
+Enter Name:
+ram
+Condition?
+1:Critical
+2:Serious
+3.Fair
+3
+ram added to Fair
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+3
+heet / critical is being treated currently.
+amogh / serious is being treated currently.
+ram / fair is being treated currently.
+All patients have been treated.
+
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+1
+Enter Name:
+jerald
+Condition?
+1:Critical
+2:Serious
+3.Fair
+3
+jerald added to Fair
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+booker t washington
+Input Error, Please Try Again
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+1
+Enter Name:
+Booker T Washington
+Condition?
+1:Critical
+2:Serious
+3.Fair
+2
+Booker T Washington added to Serious
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+1
+Enter Name:
+Adomas
+Condition?
+1:Critical
+2:Serious
+3.Fair
+1
+Adomas added to Critical
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+Mr.Berk
+Input Error, Please Try Again
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+1
+Enter Name:
+Mr.Berk
+Condition?
+1:Critical
+2:Serious
+3.Fair
+3
+Mr.Berk added to Fair
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+1
+Enter Name:
+Tim
+Condition?
+1:Critical
+2:Serious
+3.Fair
+2
+Tim added to Serious
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+2
+Adomas / critical is being treated currently.
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+2
+Booker T Washington / serious is being treated currently.
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+2
+Tim / serious is being treated currently.
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+2
+jerald / fair is being treated currently.
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+3
+Mr.Berk / fair is being treated currently.
+All patients have been treated.
+
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+3
+All patients have been treated.
+
+
+
+Main Menu: 
+1. Schedule a patient
+2. Treat the next patient
+3. Treat all patients
+4. Exit
+Enter a number[1-4]: 
+4
+Program Ended
